@@ -1,13 +1,17 @@
-import java.util.*;
-
-public class prac2{
-	public static void main(String[] args){
-		Scanner inp = new Scanner(System.in);
-		System.out.println("Predict the result");
-		System.out.println("Enter the marks of the student: ");
-		int m = inp.nextInt();
-		if(m>=40){
-			System.out.println("Pass");
-			}else{System.out.println("Fail");}
-		}
-	}
+Import java.util.Scanner;
+Public class prac3 {
+Public static void main(String[] args) {
+Int s1;
+Scanner in =new Scanner(System.in);
+System.out.println(“Enter score “);
+S1=in.nextInt();
+If(s1>40)
+{
+System.out.println(“PASS!”);
+}
+Else{
+System.out.println(“FAIL!”);
+}
+In.close();
+}
+}
